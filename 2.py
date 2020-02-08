@@ -19,7 +19,7 @@ def main():
 def function(n):
     if (int(n) > 1):
         for i in range(2, int(n)):
-            if (n % i == 0):
+            if (int(n) % i == 0):
                 return False
         return True
     else:
