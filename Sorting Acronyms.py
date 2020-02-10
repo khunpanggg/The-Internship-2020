@@ -16,6 +16,7 @@ def main():
                 box += j
         lst_word.append(box)
         box = ""
+    lst_word.sort()
     for i in sorted(lst_word, key=len, reverse=True):
         print(i)
 main()
