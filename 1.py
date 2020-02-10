@@ -1,7 +1,6 @@
 """Sorting Aconyms"""
 def main():
     """ main function """
-    count = 0
     box = ""
     lst = []
     lst_word = []
